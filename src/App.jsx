@@ -26,7 +26,8 @@ function App() {
   <div className='container mt-5 ms-5  '>
       <div className='row mt-5'>
       <h1 className='text-center mt-3'>ToDo App</h1>
-     <div className='container text-center col-lg-6 mt-4'>
+      <div className="col-lg-4"></div>
+     <div className='container text-center col-lg-4 mt-4'>
      <input
         type="text"
         value={todoText}
@@ -39,7 +40,7 @@ function App() {
 
      </div>
    
-    <div className='col-lg-6 mt-2'>
+    <div className='col-lg-4 mt-2'>
     <h2 style={{}}>All Todos</h2>
       <ul>
         {todos.map(todo => (
